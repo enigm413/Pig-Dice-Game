@@ -14,7 +14,7 @@ const gameInit = function () {
   currentScore = 0;
   score = [0, 0];
   gameRules = true;
-  dice.classList.remove('hidden');
+  dice.classList.add('hidden');
 
   //Initialize Player 1
   playerNumber = 1;
